@@ -1,0 +1,44 @@
+repo_name: tkim/SublimeLinter-pep8
+report_id: 031b98128a17b26db753e046aa979b9a
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-25T14:53:28+00:00'
+requested_by: aparajita
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tkim/SublimeLinter-pep8
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tkim/SublimeLinter-pep8
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/tkim/SublimeLinter-pep8/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Martin Hansen
+  last_updated_on: 2014-01-23 16:07:46.000000000 Z
